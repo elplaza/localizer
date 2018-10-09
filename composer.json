@@ -1,0 +1,24 @@
+{
+    "name"       : "Localizer service",
+    "license"    : "MIT",
+    "type"       : "localizer",
+    "description": "The repo for my localizer service",
+    "autoload"   : {
+        "psr-4": { "Localizer\\": "src/Localizer" }
+    },
+    "require": {
+        "pragmarx/countries": "@stable"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "@stable"
+    },
+    "config": {
+        "bin-dir": "bin"
+    },
+    "minimum-stability": "stable",
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0"
+        }
+    }
+}
